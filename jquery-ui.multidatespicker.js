@@ -7,11 +7,7 @@
  */
 
 (function(factory) {
-  if (typeof define === "function" && define.amd) {
-    define(["jquery", "jquery-ui-dist"], factory);
-  } else {
     factory(jQuery);
-  }
 }(function( $ ){
 	$.extend($.ui, { multiDatesPicker: { version: "1.6.6" } });
 	
